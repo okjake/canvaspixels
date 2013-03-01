@@ -1,5 +1,5 @@
 # canvaspixels
-I've seen a lot of examples of CSS filters applied to getUserMedia video, but these examples are manipulating pixels directly using web workers.
+Experiments and examples manipulating getUserMedia video feed pixels, using web workers.
 
 ### Adding new workers 
 This could serve as useful boilerplate for testing pixel processing algorithms and effects. 
@@ -10,6 +10,7 @@ This could serve as useful boilerplate for testing pixel processing algorithms a
 
 ### Its not working?
 >Uncaught Error: SecurityError: DOM Exception 18 
+
 Chrome won't let you open the camera feed if you open index.html using the file:// URI scheme (eg, double clicking it). If you run it from a local server it should work OK. 
 
 ### License
