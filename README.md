@@ -1,6 +1,7 @@
 # canvaspixels
 -----
 Experiments and examples manipulating getUserMedia video feed pixels, using web workers.
+[See the demo](http://okjake.github.com/canvaspixels)
 
 ## Adding new workers 
 This could serve as useful boilerplate for testing pixel processing algorithms and effects. 
