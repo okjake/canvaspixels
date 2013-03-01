@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>getUserMedia direct pixel manipulation examples</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <canvas id="display">
+        Sorry, your browser does not support canvas.
+      </canvas>
+      
+      <ul id="controls">
+        <li>
+          <a href="#" id="active" data-worker="unprocessed">unprocessed</a>
+        </li>
+        <li>
+          <a href="#" data-worker="scatter">scatter</a>
+        </li>
+        <li>
+          <a href="#" data-worker="crapcam">crapcam</a>
+        </li>
+        <li>
+          <a href="#" data-worker="invert">invert</a>
+        </li>
+        <li>
+          <a href="#" data-worker="martian">martian</a>
+        </li>
+        <li>
+          <a href="#" data-worker="greyscale">greyscale</a>      
+        </li>
+      </ul>
+    </div>
+
+    <video autoplay class="hide"></video>
+    <canvas id="hiddenCanvas" class="hide"></canvas>
+  </body>
+</html>
